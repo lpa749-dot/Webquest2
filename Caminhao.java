@@ -40,7 +40,7 @@ public class Caminhao extends Veiculo {
         System.out.println("---------------------------");
     }
 
-    // Método main opcional para testar individualmente
+    // Método main para testar 
     public static void main(String[] args) {
         Caminhao c1 = new Caminhao("MNO-7890", "Volvo", "FH 540", 2020, 550000.00, 3.0);
         Caminhao c2 = new Caminhao("PQR-1122", "Mercedes-Benz", "Atego 2430", 2021, 420000.00, 7.0);
@@ -50,5 +50,6 @@ public class Caminhao extends Veiculo {
         c2.exibirInfo();
     }
 }
+
 
 
