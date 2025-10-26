@@ -1,5 +1,5 @@
 public class Caminhao extends Veiculo {
-    private double capacidadeCarga; // atributo privado (em toneladas)
+    private double capacidadeCarga; 
 
     // Construtor
     public Caminhao(String placa, String marca, String modelo, int ano, double valor, double capacidadeCarga) {
@@ -102,3 +102,4 @@ public class Caminhao extends Veiculo {
     }
 }
        
+
